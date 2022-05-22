@@ -12,4 +12,4 @@ class int(metaclass=MyInt):
         self.y = y
 
 
-i = int(4, 5)  # MyInt 메타클래스의 __call__이 호출된다c
+i = int(4, 5)  # MyInt 메타클래스의 __call__이 호출된다c3
