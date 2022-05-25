@@ -31,7 +31,7 @@ hc1 = HealthCheck()
 hc2 = HealthCheck()
 
 print("schedule health check for servers 1")
-hc1.addServer(
+hc1.addServer()
 for i in range(4):
     print("checking ", hc1.servers[i])
 
