@@ -1,11 +1,11 @@
 """
 client : 결혼하는 당사자
-facade : 웨딩플래너
+4-facade : 웨딩플래너
 subsystem : 음식, 호텔, 꽃 등의 업체
 """
 
 
-class EventManager(object):  # facade
+class EventManager(object):  # 4-facade
     def __init__(self):
         self.musician = None
         self.caterer = None
